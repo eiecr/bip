@@ -107,4 +107,25 @@ Inframamaria - Final Mean Squared Error: 22.920611564625855
 Inframamaria - Final R² Score: 0.17561582655045282
 
 
+## Multi-Output Regression with Random Forest and Evaluation
+multi_output_regression_with_random_forest_and_evaluation.py
 
+Mean Squared Error for each target variable: [6.73786540e-01 1.54695978e+03 1.54902272e-01]
+R² score for each target variable: [ 0.04344618 -0.27139416 -0.17479344]
+
+**Interpretation of Results**
+**_Mean Squared Error (MSE)_**: Lower MSE indicates better performance for that target variable.
+
+**_R² Score_**: Higher values (closer to 1) indicate a better fit.
+Scatter Plots:
+Points close to the red dashed line (45-degree line) suggest good predictions.
+Deviations from this line indicate areas where the model might be struggling due to high variability or noise in X.
+
+
+
+### Notas
+
+inframamaria: torso debajo del seno
+proyeccion: medida de la base del torso al punto maximo del seno (cuanto se sale)
+  proyeccion del implante: como su nombre lo indica
+reborde: En el contexto de medición de volumen mamario, el reborde mamario o pliegue inframamario se refiere al borde inferior del seno, en el punto donde el seno se encuentra con la pared torácica. Este pliegue forma una línea horizontal que es importante para la medición y evaluación de la anatomía mamaria, ya que define la base del seno.
