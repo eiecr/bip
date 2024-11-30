@@ -59,13 +59,13 @@ plt.tight_layout()
 plt.show()
 
 # Step 11: Visualize the PCA-transformed feature space for each target variable
-plt.figure(figsize=(18, 5))
+plt.figure(figsize=(45, 5))
 for i, target in enumerate(target_columns):
     plt.subplot(1, len(target_columns), i + 1)
     plt.scatter(X_reduced[:, 0], X_reduced[:, 1], alpha=0.5, c=y[target], cmap='viridis')
     plt.colorbar(label=target)
-    plt.xlabel('Principal Component 1')
-    plt.ylabel('Principal Component 2')
+    plt.xlabel('PC1')
+    plt.ylabel('PC 2')
     plt.title(f'PCA-Reduced Feature Space with Color by Target ({target})')
 
 plt.tight_layout()

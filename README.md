@@ -73,7 +73,9 @@ Random Forest has several hyperparameters you can tune to improve its performanc
 Random Forest provides a way to measure the importance of each feature. You can use this to see if some features contribute more than others, and possibly drop less important features to simplify the model
 If some features have very low importance, you can consider removing them from the model to reduce overfitting and improve generalization.
 
-### XGBoosts ***
+### XGBoosts (eXtreme Gradient Boosting) ***
+
+XGBoost is a machine learning technique that combines lots of simple models to make very accurate predictions. Think of it like a team of people solving a problem: each person (model) specializes in fixing specific mistakes, and together, they create a better solution.
 
 Cross-validated MSE for 'reborde': 1.1483956576133607
 Cross-validated MSE for 'inframamaria': 27.322693419636515
@@ -121,11 +123,19 @@ Scatter Plots:
 Points close to the red dashed line (45-degree line) suggest good predictions.
 Deviations from this line indicate areas where the model might be struggling due to high variability or noise in X.
 
+## Generalized Additive Models (GAMs)
 
+flexible models that capture non-linear relationships by fitting separate, smooth functions to each feature. 
+
+#### independent (X) and dependent (y) variables
+X = data[['volumen_pre', 'proyeccion', 'reborde', 'inframamaria']]
+y = data[['base_implante_colocado', 'volumen_colocado', 'proyeccion_medida']]
 
 ### Notas
 
-inframamaria: torso debajo del seno
-proyeccion: medida de la base del torso al punto maximo del seno (cuanto se sale)
+inframamaria: circunferencia del torso debajo del seno
+proyeccion: medida de la base del torso al punto maximo del seno (cuanto sobresale del torso)
   proyeccion del implante: como su nombre lo indica
-reborde: En el contexto de medición de volumen mamario, el reborde mamario o pliegue inframamario se refiere al borde inferior del seno, en el punto donde el seno se encuentra con la pared torácica. Este pliegue forma una línea horizontal que es importante para la medición y evaluación de la anatomía mamaria, ya que define la base del seno.
+reborde: En el contexto de medición de volumen mamario, el reborde mamario o pliegue inframamario se refiere al borde inferior del seno, 
+         en el punto donde el seno se encuentra con la pared torácica. Este pliegue forma una línea horizontal que es importante para la medición y evaluación
+         de la anatomía mamaria, ya que define la base del seno.

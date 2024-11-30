@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 
 
 # Step 1: Load your data from the CSV file
-data = pd.read_csv('breast_implant_data_1.csv')
+data = pd.read_csv('../breast_implant_data_1.csv')
 
 # Step 2: Define the independent variables (volumen_pre, proyeccion) and dependent variables (reborde, inframamaria)
 X = data[['volumen_pre', 'proyeccion']]  # Independent variables

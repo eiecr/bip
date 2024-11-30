@@ -9,10 +9,12 @@ import matplotlib.pyplot as plt
 # Step 1: Load the dataset from CSV
 data = pd.read_csv('breast_implant_data_1.csv')
 
+data = data.dropna(subset=['proyeccion_medida'])
+
 # Step 2: Define the independent variables (volumen_pre, proyeccion) and dependent variables (reborde, inframamaria)
 X = data[['volumen_pre', 'proyeccion']]  # Independent variables
-y_reborde = data['reborde']  # Dependent variable: reborde
-y_inframamaria = data['inframamaria']  # Dependent variable: inframamaria
+y_reborde = data['volumen_colocado']  # Dependent variable: reborde
+y_inframamaria = data['proyeccion_medida']  # Dependent variable: inframamaria
 
 # Step 3: Scale the independent variables using StandardScaler
 scaler_X = StandardScaler()  # Initialize scaler

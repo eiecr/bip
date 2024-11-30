@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Step 1: Load the dataset from CSV
-data = pd.read_csv('breast_implant_data_1.csv')
+data = pd.read_csv('../breast_implant_data_1.csv')
 
 # Step 2: Define the independent variables (volumen_pre, proyeccion) and dependent variables (reborde, inframamaria)
 X = data[['volumen_pre', 'proyeccion']]  # Independent variables

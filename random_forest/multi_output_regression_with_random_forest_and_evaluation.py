@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 # Load the dataset
-data = pd.read_csv('breast_implant_data_1.csv')
+data = pd.read_csv('../breast_implant_data_1.csv')
 
 # Remove rows where 'proyeccion_medida' is NaN
 data = data.dropna(subset=['proyeccion_medida'])
