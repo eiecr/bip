@@ -1,15 +1,17 @@
+# Regresión polinómica multivariable (con las variables Inframamaria, Reborde y Contorno).
+
 ### Datos:
 [Input de datos](datos_mezclados.csv)
 
 ### Graficas:
 
-[Plots](multivariate_polinomial_regression.png)
+![Plots](multivariate_polinomial_regression.png)
 
-[Heatmap](multivariate_polinomial_regression_heatmap.png)
+![Heatmap](multivariate_polinomial_regression_heatmap.png)
 
-[Prediccion vs realidad (80% de datos entrenamiento, 20% de prueba)](multivariate_polinomial_regression_prediccion_vs_real.png)
+![Prediccion vs realidad (80% de datos entrenamiento, 20% de prueba)](multivariate_polinomial_regression_prediccion_vs_real.png)
 
-[3D interactivo](mi_scatter_3d_interactivo.html)
+[Ver grafico 3D interactivo](mi_scatter_3d_interactivo.html)
 
 ## **Resultados:**
 
