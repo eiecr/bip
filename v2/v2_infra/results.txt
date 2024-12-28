@@ -1,0 +1,3 @@
+Polynomial Regression Model (Degree 4)
+Mean Squared Error: 10770.346714226538
+R-squared: 0.2247035387406623
