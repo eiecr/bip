@@ -1,10 +1,7 @@
-## **Resultados:**
-
-RMSE = 59.538
-R^2  = 0.607
+### Datos:
+[Input de datos](datos_mezclados.csv)
 
 ### Graficas:
-[Input de datos](datos_mezclados.csv)
 
 [Plots](multivariate_polinomial_regression.png)
 
@@ -13,6 +10,12 @@ R^2  = 0.607
 [Prediccion vs realidad (80% de datos entrenamiento, 20% de prueba)](multivariate_polinomial_regression_prediccion_vs_real.png)
 
 [3D interactivo](mi_scatter_3d_interactivo.html)
+
+## **Resultados:**
+
+RMSE = 59.538
+
+R^2  = 0.607
 
 ## Interpretacion:
 
