@@ -1,7 +1,7 @@
 # Regresión polinómica multivariable (con las variables Inframamaria, Reborde y Contorno).
 
 ### Datos:
-[Input de datos](datos_mezclados.csv)
+[Input de datos](../datos_mezclados.csv)
 
 ### Graficas:
 

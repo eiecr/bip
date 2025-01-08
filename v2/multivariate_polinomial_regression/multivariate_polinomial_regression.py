@@ -17,7 +17,7 @@ from mpl_toolkits.mplot3d import Axes3D  # Import necesario para proyecciones 3D
 # -----------------------------------------------------------------------------
 # 1. Carga de datos
 # -----------------------------------------------------------------------------
-data = pd.read_csv('datos_mezclados.csv')
+data = pd.read_csv('./datos_mezclados.csv')
 
 # -----------------------------------------------------------------------------
 # 2. Exploración inicial de los datos
